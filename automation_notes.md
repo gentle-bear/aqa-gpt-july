@@ -54,3 +54,7 @@ python — запускает интерпретатор;
 
 Запустить конкретный файл:
 `python -m pytest tests/api/test_example.py`
+
+
+<!-- 2 -->
+
