@@ -11,3 +11,5 @@ def test_multiplication():
 def test_division():
     assert 20 / 5 == 4, 'Результат деления неверный'
 
+def test_string():
+    assert 'string' != 'String'
