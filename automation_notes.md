@@ -58,3 +58,19 @@ python — запускает интерпретатор;
 
 <!-- 2 -->
 
+Запустить все тесты: 
+`python -m pytest` 
+
+Запустить все тесты с подробным выводом: 
+`python -m pytest -v` 
+
+Запустить один файл:
+`python -m pytest tests/test_project.py -v` 
+
+Запустить один тест: 
+`python -m pytest tests/test_project.py::test_division -v` 
+
+Запустить тесты по части названия: 
+`python -m pytest -k "division" -v` 
+
+Правила поиска тестов: - файл обычно начинается с `test_`; - тестовая функция начинается с `test_`; - `assert` проверяет, что выражение истинно.
