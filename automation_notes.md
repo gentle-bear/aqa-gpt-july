@@ -32,14 +32,10 @@ python — запускает интерпретатор;
 `python -m pip install -r requirements.txt`
 
 
-
-
 ## Работа с директориями
 
 Создать вложенные директории:
 `mkdir -p tests/api`
-
-
 
 ## Pytest
 
@@ -54,7 +50,6 @@ python — запускает интерпретатор;
 
 Запустить конкретный файл:
 `python -m pytest tests/api/test_example.py`
-
 
 <!-- 2 -->
 
